@@ -107,38 +107,44 @@
 
   <!-- Projects section -->
   <section id="projects">
-    <p class="section__text__p1">Browse My Recent</p> <!-- Section introduction -->
-    <h1 class="title">Demo Reel</h1> <!-- Section title -->
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Demo Reel</h1>
     <div class="experience-details-container">
       <div class="about-containers">
-        <!-- Project details -->
         <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/miniatura2.png" alt="Project 2 Thumbnail" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">TD - DEMO REEL</h2> <!-- Project title -->
+          <!-- Reproductor de Vimeo para la demo reel de TD -->
+          <iframe
+            id="td-video"
+            src="https://player.vimeo.com/video/940423926"
+            frameborder="0"
+            allow="autoplay; fullscreen"
+            allowfullscreen
+          ></iframe>
+          <h2 class="experience-sub-title project-title">TD - DEMO REEL</h2>
           <div class="btn-container">
-            <!-- Button to open Vimeo link -->
-            <button class="btn btn-color-2 project-btn" onclick="window.open('https://vimeo.com/940423926', '_blank')">Vimeo</button> 
-            <!-- Button to open GitHub link -->
-            <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/pauRD12', '_blank')">GitHub</button> 
+            <button class="btn btn-color-2 project-btn" onclick="window.open('https://vimeo.com/940423926', '_blank')">Vimeo</button>
+            <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/pauRD12', '_blank')">GitHub</button>
           </div>
         </div>
         <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/miniatura1.png" alt="Project 1 Thumbnail" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">FX - DEMO REEL</h2> <!-- Project title -->
+          <!-- Reproductor de Vimeo para la demo reel de FX -->
+          <iframe
+            id="fx-video"
+            src="https://player.vimeo.com/video/871636649"
+            frameborder="0"
+            allow="autoplay; fullscreen"
+            allowfullscreen
+          ></iframe>
+          <h2 class="experience-sub-title project-title">FX - DEMO REEL</h2>
           <div class="btn-container">
-            <!-- Button to open Vimeo link -->
-            <button class="btn btn-color-2 project-btn" onclick="window.open('https://vimeo.com/871636649', '_blank')">Vimeo</button> 
+            <button class="btn btn-color-2 project-btn" onclick="window.open('https://vimeo.com/871636649', '_blank')">Vimeo</button>
           </div>
         </div>
       </div>
     </div>
-    <!-- Arrow icon to scroll to Contact section -->
-    <img src="./assets/arrow.png" alt="Arrow icon pointing down" class="icon arrow" onclick="location.href='#contact'" /> 
+    <img src="./assets/arrow.png" alt="Arrow icon pointing down" class="icon arrow" onclick="location.href='#contact'" />
   </section>
+  
 
   <!-- Contact section -->
   <section id="contact">

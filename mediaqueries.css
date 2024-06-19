@@ -1,3 +1,9 @@
+iframe {
+  width: 100%; /* Para que ocupe todo el ancho del contenedor */
+  height: 500px; /* Altura inicial del video en pantallas más pequeñas */
+  max-width: 100%; /* Para asegurar que no sobrepase el ancho del contenedor */
+}
+
 /* Media query for screens with a maximum width of 1400px */
 @media screen and (max-width: 1400px) {
   /* Adjusting the height and margin of the profile section */
@@ -167,6 +173,9 @@
     width: 60px; 
     height: auto;
   }
+  iframe {
+    height: 200px; /* Ajustar altura para pantallas 2K */
+  }
 }
 
 /* Media query for larger screens (2K) */
@@ -178,5 +187,8 @@
   #about .section__pic-container {
     width: 500px;
     height: 500px;
+  }
+  iframe {
+    height: 600px; /* Ajustar altura para pantallas 2K */
   }
 }
