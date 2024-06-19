@@ -403,92 +403,86 @@ footer p {
 
 
 
-/* Estilos para tema oscuro */
+/* Dark theme styles */
 
-/* Fondo y colores */
+/* Background and colors */
 body {
-    background-color: #1c1c1e;
-    background-color: #29292b;
-    color: #dcdcdc;
+  background-color: #1c1c1e;
+  background-color: #29292b;
+  color: #dcdcdc;
 }
 
-/* Barras de navegación */
+/* Navigation bars */
 nav {
-    background-color: #29292b;
-    background-color: #1c1c1e;
+  background-color: #29292b;
+  background-color: #1c1c1e;
 }
 
 .nav-links a {
-    color: #dcdcdc;
+  color: #dcdcdc;
 }
 
-/* Botones */
+/* Buttons */
 .btn {
-    background-color: #29292b;
-    border: 2px solid #0077cc; /* Azul oscuro */
-    color: #ffffff;
+  background-color: #29292b;
+  border: 2px solid #0077cc; /* Dark blue */
+  color: #ffffff;
 }
 
 .btn:hover {
-    background-color: #0077cc; /* Azul oscuro */
+  background-color: #0077cc; /* Dark blue */
 }
 
-/* Secciones */
+/* Sections */
 
 
-/* Texto y enlaces */
+/* Text and links */
 a {
-    color: #0077cc; /* Azul oscuro */
+  color: #0077cc; /* Dark blue */
 }
 
 a:hover {
-    color: #004466; /* Azul me*/
+  color: #004466; /* Darker blue */
 }
 
-
-
+/* Software icons */
 #software_icons {
-    display: flex; /* Usa flexbox para alinear horizontalmente */
-    gap: 4rem;
-    align-items: center; /* Centra verticalmente las imágenes */
-    justify-content: center; /* Centra horizontalmente las imágenes */
-    margin-top: 4rem;
+  display: flex; /* Use flexbox to align horizontally */
+  gap: 4rem;
+  align-items: center; /* Center align vertically */
+  justify-content: center; /* Center align horizontally */
+  margin-top: 4rem;
 }
 
-/* Ajusta el tamaño de las imágenes más pequeñas */
+/* Adjust size of smaller icons */
 .icon-houdini {
-    width: 80px; /* Tamaño específico para las imágenes más pequeñas */
-    height: auto;
-    transform: translateX(1rem);
-    scale: 150%;
+  width: 80px; /* Specific size for smaller icons */
+  height: auto;
+  transform: translateX(1rem);
+  scale: 150%;
 }
 .icon-python {
-    width: 70px; /* Tamaño específico para las imágenes más pequeñas */
-    height: auto;
-    scale: 140%;
+  width: 70px; /* Specific size for smaller icons */
+  height: auto;
+  scale: 140%;
 }
 
 .icon-unreal {
-    width: 70px; /* Tamaño específico para las imágenes más pequeñas */
-    height: auto;
-    scale: 110%;
-    transform: translateX(-0.5rem);
+  width: 70px; /* Specific size for smaller icons */
+  height: auto;
+  scale: 110%;
+  transform: translateX(-0.5rem);
 }
 
 .icon-nuke {
-    width: 70px; /* Tamaño específico para las imágenes más pequeñas */
-    height: auto;
-    transform: translateX(-1.5rem);
+  width: 70px; /* Specific size for smaller icons */
+  height: auto;
+  transform: translateX(-1.5rem);
 }
 
-
-
-
-/* text about*/
+/* Text container */
 .text-container {
-    text-align: justify;
-    font-size: 1.2rem;
-    line-height: 1.8; /* Establece el interlineado del texto */
+  text-align: justify;
+  font-size: 1.2rem;
+  line-height: 1.8; /* Set text line height */
 }
-
-

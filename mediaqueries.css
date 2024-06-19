@@ -1,103 +1,182 @@
+/* Media query for screens with a maximum width of 1400px */
 @media screen and (max-width: 1400px) {
-    #profile {
-      height: 83vh;
-      margin-bottom: 6rem;
-    }
-    .about-containers {
-      flex-wrap: wrap;
-    }
-    #contact,
-    #projects {
-      height: fit-content;
-    }
+  /* Adjusting the height and margin of the profile section */
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
   }
-  
-  @media screen and (max-width: 1200px) {
-    #desktop-nav {
-      display: none;
-    }
-    #hamburger-nav {
-      display: flex;
-    }
-    #experience,
-    .experience-details-container {
-      margin-top: 2rem;
-    }
-    #profile,
-    .section-container {
-      display: block;
-    }
-    .arrow {
-      display: none;
-    }
-    section,
-    .section-container {
-      height: fit-content;
-    }
-    section {
-      margin: 0 5%;
-    }
-    .section__pic-container {
-      width: 275px;
-      height: 275px;
-      margin: 0 auto 2rem;
-    }
-    .about-containers {
-      margin-top: 0;
-    }
+
+  /* Ensuring about-containers wrap their children to the next line if necessary */
+  .about-containers {
+    flex-wrap: wrap;
   }
-  
-  @media screen and (max-width: 600px) {
-    #contact,
-    footer {
-      height: 40vh;
-    }
-    #profile {
-      height: 83vh;
-      margin-bottom: 0;
-    }
-    article {
-      font-size: 1rem;
-    }
-    footer nav {
-      height: fit-content;
-      margin-bottom: 2rem;
-    }
-    .about-containers,
-    .contact-info-upper-container,
-    .btn-container {
-      flex-wrap: wrap;
-    }
-    .contact-info-container {
-      margin: 0;
-    }
-    .contact-info-container p,
-    .nav-links li a {
-      font-size: 1rem;
-    }
-    .experience-sub-title {
-      font-size: 1.25rem;
-    }
-    .logo {
-      font-size: 1.5rem;
-    }
-    .nav-links {
-      flex-direction: column;
-      gap: 0.5rem;
-      text-align: center;
-    }
-    .section__pic-container {
-      width: auto;
-      height: 46vw;
-      justify-content: center;
-    }
-    .section__text__p2 {
-      font-size: 1.25rem;
-    }
-    .title {
-      font-size: 2rem;
-    }
-    .text-container {
-      text-align: justify;
-    }
+
+  /* Setting the height of contact and projects sections to fit their content */
+  #contact,
+  #projects {
+    height: fit-content;
   }
+}
+
+/* Media query for screens with a maximum width of 1200px */
+@media screen and (max-width: 1200px) {
+  /* Hiding the desktop navigation bar */
+  #desktop-nav {
+    display: none;
+  }
+
+  /* Displaying the hamburger navigation menu */
+  #hamburger-nav {
+    display: flex;
+  }
+
+  /* Adding top margin to experience sections */
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+
+  /* Ensuring profile and section containers are displayed as block elements */
+  #profile,
+  .section-container {
+    display: block;
+  }
+
+  /* Hiding arrow icons */
+  .arrow {
+    display: none;
+  }
+
+  /* Setting height of section and section-container to fit their content */
+  section,
+  .section-container {
+    height: fit-content;
+  }
+
+  /* Adding horizontal margin to sections */
+  section {
+    margin: 0 5%;
+  }
+
+  /* Adjusting size and margin of picture container within sections */
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+
+  /* Removing top margin from about-containers */
+  .about-containers {
+    margin-top: 0;
+  }
+}
+
+/* Media query for screens with a maximum width of 600px */
+@media screen and (max-width: 600px) {
+  /* Setting height of contact section and footer */
+  #contact,
+  footer {
+    height: 40vh;
+  }
+
+  /* Adjusting height and removing bottom margin from profile section */
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+
+  /* Adjusting font size of articles */
+  article {
+    font-size: 1rem;
+  }
+
+  /* Adjusting height and bottom margin of navigation within footer */
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+
+  /* Ensuring these containers wrap their children to the next line if necessary */
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+
+  /* Removing margin from contact info container */
+  .contact-info-container {
+    margin: 0.2rem;
+  }
+
+  /* Adjusting font size of paragraphs and navigation links */
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+
+  /* Adjusting font size of experience subtitles */
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+
+  /* Adjusting font size of logo */
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  /* Adjusting navigation links to be columnar, with spacing and centered text */
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  /* Adjusting size and alignment of picture container within sections */
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+
+  /* Adjusting font size of secondary section text */
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+
+  /* Adjusting font size of titles */
+  .title {
+    font-size: 2rem;
+  }
+
+  /* Ensuring text within containers is justified */
+  .text-container {
+    text-align: justify;
+  }
+
+  /* Adjustments for software icons */
+  #software_icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    gap: 2.5rem; /* Adjust spacing between icons */
+  }
+
+  /* Adjusting size of software icons */
+  .icon-software {
+    width: 60px; 
+    height: auto;
+  }
+}
+
+/* Media query for larger screens (2K) */
+@media screen and (min-width: 2000px) {
+  #about .text-container {
+    font-size: 1.7rem; /* Slightly larger font size */
+  }
+
+  #about .section__pic-container {
+    width: 500px;
+    height: 500px;
+  }
+}
